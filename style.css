@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    text-align: left;
+}
+p
+{
+    text-align: left;
+}
+body
+{
+    font-family: 'Akaya Kanadaka', cursive;
+}
+
+/*******************
+Header area starts
+********************/
+
+.Mobile-app-banner
+{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;   
+    /*The image will not repeat more than one time*/
+    background-repeat: no-repeat;
+}
+
+.mobile-app-banner-content
+{
+    margin-top: 180px;
+    
+}
+.mobile-app-banner-content h1
+{
+    font-size: 70px;
+    color: rgba(221, 216, 216, 0.966);
+    font-weight: 600;
+}
+
+.mobile-app-banner-content p
+{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0px;
+    color: rgba(221, 216, 216, 0.966);
+}
+
+.btn
+{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin: 6px 12px;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 2px transparent;
+    border-image: 4px;
+}
+
+.buttons .btn
+{
+    padding: 18px 40px;
+    margin-bottom: 40px;
+    margin-right: 15px;
+}
+
+.btn-pink
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(221, 216, 216, 0.966);
+    border: 2px solid rgba(19, 17, 17, 0.918);  
+    border-radius: 10px;
+
+}
+
+.btn-blue
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:rgba(221, 216, 216, 0.966);
+    border: 2px solid rgba(19, 17, 17, 0.918);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btn-pink:hover
+{
+    background-color: rgba(187, 60, 9, 0.918);
+    color: rgb(255, 250, 250);
+}
+
+.btn-blue:hover
+{
+    background-color: rgba(187, 60, 9, 0.918);
+    color: rgb(245, 235, 235);
+}
+
+
+
+.feature-text
+{
+    padding: 40px 40px;
+    border: 2px solid rgba(187, 57, 6, 0.966);
+    background: rgb(255, 255, 254);
+    border-radius: 6px;
+    box-decoration-break: clone;
+    margin-bottom: 20px;
+    text-align: justify center;
+    box-sizing: 50px;
+    text-size-adjust: 15px;
+    height: 350px;
+    
+} 
+
+.feature-text h4
+{
+    margin-top: 20px;
+    text-decoration-line: underline;
+    text-align: center;
+}
+
+.feature-text p
+{
+    margin: 0px;
+    text-align: center;
+    text-overflow: clip;
+    text-emphasis-position: centre;
+}
+
+.feature-text:hover
+{
+    background-color: 4px solid rgb(233, 233, 233);
+    padding-top: 45px;  
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border-top: 10px solid rgba(187, 57, 6, 0.966);
+    border-bottom:  10px solid rgba(187, 57, 6, 0.966);
+    
+    box-shadow: 0 5px 15px rgba(51, 14, 14, 0.664);
+}
+
+.heading
+{
+    color: rgba(187, 57, 6, 0.966);
+    margin-bottom: 30px;
+    text-shadow: rgb(47, 44, 44);
+    text-decoration: underline;
+    font-size: 60%;
+
+}
+
+.img-hover1
+{
+    background-image: url(civil_icon.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-hover2
+{
+    background-image: url(mech_icon.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-hover3
+{
+    background-image: url(ele_icon.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+.img-hover4
+{
+    background-image: url(computer_icon.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+
+.img-hover5
+{
+    background-image: url(electronic_icon.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+.img-hover6
+{
+    background-image: url(chemical_icon.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+.img-hover7
+{
+    background-image: url(mba_icon.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.img-hover8
+{
+    background-image: url(system_icon.jpg);
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+   
+.features
+{
+   background-color:rgba(194, 192, 191, 0.849);
+
+}
+
+/*******************
+Video area starts
+********************/
+.video
+{
+    padding-top: 75px;
+    padding-bottom: 5px;
+    background-color: rgba(194, 192, 191, 0.849);
+}
+
+.overlay
+{
+    /*we will get margin from the outer side of the document*/
+    position: absolute;
+    top: 0%;
+    border: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.overlay img
+{
+    /*usually bootstrap library and class will not permitting to element to shift anywhere
+    where you want.
+    by using !important you can easily make the privilages off,
+    bootstrap will not going to disturb by shifting any element */
+    width: auto !important;
+    margin: 209px 0px;
+}
+
+.overlay-image
+{
+    position: relative;
+    text-align: center;
+    border-bottom: 0px 5px 15px rgba(0, 0, 0, .10);
+}
+
+.overlay-image img
+{
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.overlay-image:hover .overlay 
+{
+    opacity: 1;  
+}
+
+.overlay-image .overlay
+{
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(122, 116, 116, 0.7));
+    border-radius: 5px;
+    top: 10px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+}
+
+iframe
+{
+    width : 100%;
+    margin-right: 20px;
+}
+
+button.mfp-close
+{
+    overflow: visible;
+    cursor: pointer;
+    background: #e7e4e4;
+    border: 0;
+    display: block;
+    outline: 0;
+    padding: 0px;
+    z-index: 1046;
+    box-shadow: none;
+}
+
+.mfp-close
+{
+    width: 44px;
+    height: 44px;
+    border-radius: 100px; 
+    position: absolute;
+    right: 40px;
+    top :0;
+    bottom: 5px;
+    color: rgb(14, 13, 13);
+}
+
+.overlay a
+{
+    outline: none;
+}
+
+/*******************
+About style starts
+********************/
+
+#about
+{
+    background-color: rgba(194, 192, 191, 0.849);
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0;
+}
+
+.about-item
+{
+    background-color: rgba(248, 248, 248, 0.493);
+    padding: 80px 30px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.7);
+    border-inline-color: black;
+    border-width: thick;
+    border-radius: 50px;
+}
+
+.about-item i
+{
+    font-size: 42px;
+    margin: 0;
+    color: rgba(187, 57, 6, 0.966);
+}
+
+.about-item h3
+{
+    font-size: 24px;
+    color: rgba(187, 57, 6, 0.966);
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+
+.about-item hr
+{
+    width: 45px;
+    height: 3px;
+    background-color: rgba(187, 57, 6, 0.966);
+    margin: 0 auto;
+    border: none;
+}
+
+.about-item p
+{
+    margin-top: 30px;
+    font-weight: bold;
+    color: rgba(187, 57, 6, 0.966);
+    text-align: center;
+    
+}
+
+.about-item:hover
+{
+    background-color: rgba(187, 57, 6, 0.966);
+    
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover:hover p
+{
+    color: rgb(10, 10, 10);
+}
+
+.about-item:hover hr
+{
+    background-color: rgb(3, 3, 3);
+}
+
+.about-item
+.about-item i,
+.about-item hr
+{
+    transition: all 400ms linear;
+}
+
+.about-item h3,
+.about-item p
+{
+    transition: all 400ms linear;
+}
+
+/*************************
+Team section style starts
+**************************/
+.vertical-heading
+{
+    color: rgba(187, 57, 6, 0.966);
+    font-size: 90%;
+    font-weight: 600;
+}
+
+#team
+{
+    background-color: rgba(194, 192, 191, 0.849);
+}
+
+#team-left
+{
+    margin: 8px;
+    position: relative;
+   
+}
+
+#team-left p
+{
+    color: rgba(70, 24, 7, 0.966);
+    font-size: 15px;
+   
+}
+
+.team-member-overlay
+{
+    background-color: rgba(170, 53, 6, 0.966);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0  ;
+    transition: all 300ms linear;
+}
+
+.team-member-info
+{
+    width: 100%;
+    height: 100%;
+    padding: 80px 0;
+
+}
+
+.team-member-info h4    
+{
+    color: rgb(192, 192, 192);
+    font-size: 16px;
+    margin: 0;
+}
+
+.team-member-info p
+{
+    color: cornsilk;
+}
+
+.team-member:hover .team-member-overlay
+{
+    opacity: 1;
+
+}
+
+ul.social-list
+{
+    padding:0;
+    margin-top: 10px;
+    margin-right: -50px;
+}
+
+ul.social-list li
+{
+    padding-right: -100px;
+    display: inline-block;
+}
+
+ul.social-list li a
+{
+    border: 2px solid rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    color: rgb(20, 20, 19);
+    border-radius: 50%;
+    transition: all 400ms linear;
+    
+}
+
+ul.social-list li:nth-child(1) a:hover
+{
+    background: rgba(16, 25, 155, 0.781);
+    border: transparent;
+}
+
+ul.social-list li:nth-child(2) a:hover
+{
+    background: rgb(207, 33, 33);
+    border: transparent;
+}
+
+ul.social-list li:nth-child(3) a:hover
+{
+    background: rgb(114, 179, 216);
+    border: transparent;
+}
+
+.skill
+{
+    margin-bottom: 50px;
+}
+
+.skill h4
+{
+    line-height: 62px;
+    margin: 0;
+    font-weight: normal;
+    color: rgba(187, 57, 6, 0.966);
+}
+
+.progress
+{
+    height: 30px;
+    border: 0;
+    background: rgba(187, 57, 6, 0.966);
+    overflow: visible;
+}
+
+.progress-bar
+{
+    background-color: #fb527a;
+}
+
+.progress-bar span
+{
+    font-size:11px ;
+    font-weight:100;
+    font-family: 'Caveat Brush', cursive;
+    background:#212226;
+    padding:10px;
+    position: absolute;
+    left:3%;
+    top:20px;
+    
+}
+
+.progress-bar span:before
+{
+    content: "";
+    border-top:10px solid#1943ec;
+    border-left: 10px solid transparent;
+    border-right:6px solid transparent;
+    position: absolute;
+    backface-visibility: -20px;
+    left:25%;
+}
+
+
+.social-icons i
+{
+    font-size: 14px;
+    color: rgb(255, 253, 253);
+    padding: 15px 15px;
+    background-color: rgba(187, 57, 6, 0.966);
+    cursor: pointer;
+    border-style: ridge;
+    border-color: rgb(255, 255, 255);
+   
+}
+
